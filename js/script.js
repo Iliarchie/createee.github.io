@@ -14,19 +14,19 @@ closeMenu.addEventListener('click', function () {
 
 // -- -- -- -- -- MENU ANIMATION
 
-document.addEventListener('DOMContentLoaded', function () {
-    const menuAnimate = document.querySelector('.menu');
-    const headerHeight = document.querySelector('.header');
-    const headerOffset = headerHeight.offsetHeight / 2;
+// document.addEventListener('DOMContentLoaded', function () {
+//     const menuAnimate = document.querySelector('.menu');
+//     const headerHeight = document.querySelector('.header');
+//     const headerOffset = headerHeight.offsetHeight / 2;
 
-    window.addEventListener('scroll', function () {
-        const scrollY = window.scrollY;
+//     window.addEventListener('scroll', function () {
+//         const scrollY = window.scrollY;
 
-        if (scrollY > headerOffset) {
-            menuAnimate.classList.add('active');
-        }
-    });
-});
+//         if (scrollY > headerOffset) {
+//             menuAnimate.classList.add('active');
+//         }
+//     });
+// });
 
 
 
